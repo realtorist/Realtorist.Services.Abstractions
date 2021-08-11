@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Realtorist.Services.Abstractions</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Dmytro Bondarchuk</Authors>
+    <Title>Realtorist.Services.Abstractions</Title>
+    <Description>Services abstractions for the Realtorist framework</Description>
+    <RepositoryUrl>https://github.com/realtorist/Realtorist.Services.Abstractions</RepositoryUrl>
+    <ReleaseNotes>Initial publish</ReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Realtorist.Models" Version="0.0.1" />
+  </ItemGroup>
+
+</Project>
