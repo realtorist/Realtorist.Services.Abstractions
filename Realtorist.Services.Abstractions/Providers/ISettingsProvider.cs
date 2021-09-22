@@ -10,6 +10,6 @@ namespace Realtorist.Services.Abstractions.Providers
         /// <summary>
         /// Gets settings
         /// </summary>
-        Task<T> GetSettingAsync<T>(string settingType) where T : new();
+        Task<T> GetSettingAsync<T>(string settingType);
     }
 }
